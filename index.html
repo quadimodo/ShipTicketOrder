@@ -149,17 +149,21 @@
                 		$(".li").toggle();
 	                });
                         });
-                $(document).ready(function(){
-                	$(".chengchuanrenxinxi_2>input").click(function(){
-                		$(".chengchuanrenxinxi_1>ul li:first").after("<li>"+ $(".chengchuanrenxinxi_1>ul li:first").html()+"</li>");	
-                });
-                });
-                
-				$(document).ready(function(){
+                 /**删除**/
+				var fuck=$(document).ready(function(){
 					$(":input[type=button]").click(function(){
-						$(this).parent().remove();
+						$(this).parent().css("display","none");
 					});
 				});
+ 				/**增加**/
+                $(document).ready(function(){
+                	$(".chengchuanrenxinxi_2>input").click(function(){
+                		$(".chengchuanrenxinxi_1>ul li:first").after("<li>"+ $(".chengchuanrenxinxi_1>ul li:first").html()+"</li>");
+                		fuck();
+                });
+                });
+               
+				
 		</script>
 	</body>
 </html>

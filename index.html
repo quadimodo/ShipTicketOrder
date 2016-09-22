@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<link href="css/ship.css" rel="stylesheet"/>
+		<script type="text/javascript" src="js/jquery-2.1.0.js" ></script>
+	</head>
+	<body>
+		<div class="bg">
+			<!- 标题栏 -->
+			<div class="title usual">
+				<div class="title_1">
+					<p><span><img src="img/loginbg.gif"/></span>
+						<a id="a1" href="script:void(0)">登录</a><a href="script:void(0)">注册</a><a href="script:void(0)">客户服务</a>
+					</p>
+				</div>
+			</div>
+			<!--主要内容-->
+			<div class="mainbody usual">
+				<div class="main_1">
+					<a href="script:void(0)" onclick="fucku()">预定船票</a>> 订单填写
+				</div>
+				<div class="yudingtianxie">
+					<span>卧龙岗 ———— 蚌埠  （  4月18日   周六   15:30  开船   ）    地点: 攀枝花火车站       &nbsp; 航班号：FK1024</span>
+
+				</div>
+				<b>票价信息</b>
+				<div class="piaojiaxinxi">
+					<span>单次预定限购5张</span><br />
+					<span>普通：&#65509;<p>315 (280+20+15)</p> &nbsp; 学生： &#65509;<p>315 (280+20+15)</p> &nbsp;军人：&#65509;<p>315 (280+20+15)</p> &nbsp; 儿童： &#65509;<p>315 (280+20+15)</p>&nbsp;&nbsp; <a href=#>[说明]</a></span>
+				</div>
+				<b>乘船人信息</b>
+				<div class="chengchuan">
+				<div class="chengchuanrenxinxi">
+					<ul>
+						<li><b>常用乘船人</b></li>
+						<li><input type="checkbox" name="c1" value="chengchuan">王大川</li>
+						<li class="li"><input type="checkbox" name="c2" value="chengchuan">张三</li>
+						<li class="li"><input type="checkbox" name="c3" value="chengchuan">李四</li>
+						<li class="li"><input type="checkbox" name="c4" value="chengchuan">王五</li>
+						<li class="li"><input type="checkbox" name="c5" value="chengchuan">赵六</li>
+						<li class="li"><input type="checkbox" name="c6" value="chengchuan">钱琪</li>
+						<li>&nbsp;<a href="script:void(0)" id="gengduo">>>更多</a></li>
+					</ul>
+				</div>
+				<div class="chengchuanrenxinxi_1">
+					<ul>
+						<li>
+							<form>
+								<select name="cars">
+									<option value="volvo" selected="selected">普通</option>
+									<option value="saab">军人</option>
+									<option value="fiat">儿童</option>
+									<option value="audi">学生</option>
+								</select>
+							</form>
+							<span>姓名：<input class="inputtext" id="inputname" type="text" ></span>
+							<form>
+								<select name="cars">
+								<option value="volvo" selected="selected">身份证</option>
+								<option value="saab">军人证</option>
+								<option value="fiat">港澳台通行证</option>
+								</select>
+							</form>
+							<input class="inputtext" type="text" />
+							<span>电话：<input class="inputtext" type="text"></span>
+							<input type="button" value="删除当前" />
+						</li>
+						<li>
+							<form>
+								<select name="cars">
+									<option value="volvo" selected="selected">普通</option>
+									<option value="saab">军人</option>
+									<option value="fiat">儿童</option>
+									<option value="audi">学生</option>
+								</select>
+							</form>
+							<span>姓名：<input class="inputtext" id="inputname" type="text" ></span>
+							<form>
+								<select name="cars">
+								<option value="volvo" selected="selected">身份证</option>
+								<option value="saab">军人证</option>
+								<option value="fiat">港澳台通行证</option>
+								</select>
+							</form>
+							<input class="inputtext" type="text" />
+							<span>电话：<input class="inputtext" type="text"></span>
+							<input type="button" value="删除当前" />
+						</li>
+					</ul>
+				</div>
+				<div class="chengchuanrenxinxi_2">
+					<!--<img  src="img/regbtn9.gif"/>-->
+					<input type="image" src="img/regbtn9.gif" />
+				</div>
+				</div>
+				<b>取票人信息</b>
+				<div class="qupiaorenxinxi">
+					<div class="qupiaorenxinxi_1">
+						<b>取票人</b>
+						<form>
+							<ul>
+								<li>
+									<span><input type="radio">王大川</span>
+								</li>
+							</ul>
+							<a href="script:void(0)">&nbsp;更多>></a>
+						</form>
+						
+					</div>
+					<div class="qupiaorenxinxi_2">
+						<span>王大川</span>&nbsp;&nbsp;&nbsp;&nbsp;
+						<span>身份证</span>&nbsp;&nbsp;&nbsp;&nbsp;
+						<span>2345234521340928234</span>&nbsp;&nbsp;&nbsp;&nbsp;
+						<span>135234235</span>&nbsp;&nbsp;&nbsp;&nbsp;
+					</div>
+				</div>
+				<div class="tijiao">
+					<span class="tijao_1">共</span>
+					<span class="tijao_2" id="howmany">3</span>
+					<span class="tijao_1">张票</span>
+					<span class="tijao_1">订单总额&#65509;</span>
+					<span class="tijao_2" id="sum">880</span>
+					<input type="image" src="img/regbtn10.gif" />
+				</div>
+			</div>
+			<!--尾部-->
+			<div class="final usual">
+				<div class="final_1">
+					<p>
+						<a href="script:void(0)">关于我们</a>
+						<a href="script:void(0)">联系我们</a>
+						<a href="script:void(0)">业务投诉</a>
+						<a href="script:void(0)">广告服务</a>					
+						<a href="script:void(0)">免责声明</a>
+					</p>
+				</div>
+				<div>
+					<span>巨硬大发好，退索保平安</span>
+				</div>
+			</div>
+		</div>
+		<script language="JavaScript">
+				/** 显示和隐藏**/
+ 				$(document).ready(function() {
+                	$("#gengduo").click(function() {
+                		$(".li").toggle();
+	                });
+                        });
+                $(document).ready(function(){
+                	$(".chengchuanrenxinxi_2>input").click(function(){
+                		$(".chengchuanrenxinxi_1>ul li:first").after("<li>"+ $(".chengchuanrenxinxi_1>ul li:first").html()+"</li>");	
+                });
+                });
+                
+				$(document).ready(function(){
+					$(":input[type=button]").click(function(){
+						$(this).parent().remove();
+					});
+				});
+		</script>
+	</body>
+</html>

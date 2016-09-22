@@ -1,0 +1,125 @@
+.bg {
+			width: 100%;
+			background: rgba(0, 0, 0, 0) url("../img/bg.png") no-repeat scroll 0 0;
+			height: 1000px;
+		}
+		
+		.title {
+			height: 105px;
+			width: 1024px;
+			margin: auto;
+		}
+		
+		.final {
+			width: 100%;
+			background-color: lightgray;
+			text-align: center;
+			padding: 20px;
+			font-size: small;
+		}
+		
+		.mainbody {
+			width: 1000px;
+			margin: 10px auto;
+			padding: 10px;
+			background-color: white;
+			font-size: small;
+		}
+		
+		.main_1 {
+			margin:10px 0;
+		}
+		a {
+			text-decoration: none;
+		}
+		
+		.yudingtianxie {
+			font-size: large;
+			border-top: solid 1px deepskyblue;
+			text-align: center;
+			
+		}
+		.piaojiaxinxi ,.chengchuan,.qupiaorenxinxi,.tijiao{
+			margin: 5px 0 20px;
+			border: lightblue 1px solid;
+			padding: 20px;
+		}
+		.chengchuan{
+			padding: 20px 20px 10px;
+		}
+		.piaojiaxinxi span {
+			display: block;
+			padding-top: 5px;
+		}
+		.piaojiaxinxi p {
+			display: inline;
+			color: orange;
+		}
+		ul,li {
+			list-style-type: none;
+		}
+		
+		.title {
+			background: rgba(0, 0, 0, 0) url("../img/logo.gif") no-repeat scroll 0 0;
+		}
+		.title_1 {
+			float: right;
+		}
+		.title_1 img {
+			position: relative;
+			top: 4px;
+			left: 5px;
+		}
+		.title_1 a {
+			margin: 0;
+			padding:0 10px;
+			border-left: 1px white solid;
+			text-align: center;
+			color: white;
+		}
+		#a1 {
+			border: none;
+			padding-left: 0;
+		}
+		.chengchuanrenxinxi,.yudingtianxie{
+			margin: 5px 0px 20px;
+			padding: 12px;
+			background-color: lightgray;
+			
+		}
+		.chengchuanrenxinxi-1 ul,li ,.qupiaorenxinxi_1 ul,li{
+			display: inline-block;
+		}
+		.inputtext {
+			width: 150px;
+		}
+		#inputname{
+			width: 100px;
+		}
+		form {
+			display: inline-block;
+		}
+		.qupiaorenxinxi_2 span {
+			text-indent: 50px;
+		}
+		.tijiao {
+			border-color: orange;
+			background-color: #FFF8EE;
+			text-align: right;
+		}
+		.tijiao span {
+			vertical-align: 12px;
+		}
+		.tijao_2 div{
+			color: orange;
+			font-size: 25px;
+		}
+		.li {
+			display: none;
+		}
+		.chengchuanrenxinxi_1 ul li{
+		    border-bottom: solid 1px gray;
+		    padding-left: 0px;
+		    margin-left: 40px;
+		    padding: 5px 0;
+		}
